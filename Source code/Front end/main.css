@@ -1,0 +1,88 @@
+html {
+    /* Ensure full height */
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    /* Background gradient */
+    background: linear-gradient(to bottom right, rgb(0, 0, 0), rgb(0, 0, 0));
+    background-attachment: fixed;
+}
+
+h1 {
+    color: rgb(246, 247, 248);
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h2 {
+    color: #00cec9;
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.presen {
+    height: 600px;
+}
+
+.normalData {
+    height: 500px;
+    border: 10px outset #00cec9;
+}
+
+.text1 {
+    color: #00cec9;
+    font-family: "Lobster", sans-serif;
+    font-size: 20px;
+}
+
+select {
+    background-color: #000000;
+    border-radius: 20%;
+    border-color: #000000;
+    color: aliceblue;
+}
+
+.predictionsData {
+    border: 5px outset #0c7feb;
+    height: 450px;
+}
+
+.sentData {
+    border: 5px outset #e01616;
+    height: 400px;
+}
+
+#syntheticPred {
+    margin-top: 60px;
+}
+
+.presen-text1 {
+    /* Animation properties */
+    animation: run1 2s;
+    width: min-content;
+    /* Position relative for animation */
+    position: relative;
+}
+
+/* Keyframes for animation */
+@keyframes run1 {
+    0% {
+        /* Initial position */
+        left: 400px;
+        top: 0px;
+        transform: rotate(0deg);
+        opacity: 0;
+    }
+
+    100% {
+        /* Final position */
+        left: 0px;
+        top: 0px;
+        transform: rotate(360deg);
+        opacity: 1;
+    }
+}

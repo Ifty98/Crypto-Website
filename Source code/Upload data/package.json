@@ -1,0 +1,23 @@
+{
+  "name": "data-manager",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "start": "tsc && node dist/textData.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/aws-sdk": "^2.7.0",
+    "@types/axios": "^0.14.0",
+    "@types/node": "^20.11.24",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.1569.0",
+    "axios": "^1.6.7",
+    "dotenv": "^16.4.5",
+    "newsapi": "^2.4.1"
+  }
+}
